@@ -1,5 +1,5 @@
 <?php
-foreach ($GET as $key => $value)
+foreach ($_GET as $key => $value)
 {
 	echo "$key: $value\n";
 }
