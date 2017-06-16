@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  height: 60px;
+  margin: 2%;
+  background-color: #424560;
+  border-top: 8px solid black;
+  margin-left: 1px solid white;
+}
+
+nav > ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #FFF;
+  border-right: 1px solid white;
+}
+
+
+.menu::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.first {
+  float: left;
+  position: relative;
+}
+
+.sec {
+  display: none;
+}
+
+.first:hover .sec {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  padding: 0px;
+  left: 0%;
+  z-index: 1000%;
+}
+
+.first:hover {
+  border: 5px solid white;
+}
+
+li:hover {
+  border: 5px solid white;
+}
+
+.ong1:hover {
+  background-color: RGBa(225, 75, 35, 0.15);
+}
+
+.ong1:hover .sec {
+  background-color: RGBa(225, 75, 35, 0.15);
+}
+
+.ong2:hover {
+  background-color: RGBa(000, 100, 200, 0.15);
+}
+
+.ong2:hover .sec {
+  background-color: RGBa(000, 100, 200, 0.15);
+}
+
+.ong3:hover {
+  background-color: RGBa(250, 200, 80, 0.15);
+}
+
+.ong3:hover .sec {
+  background-color: RGBa(250, 200, 80, 0.15);
+}
+
+.ong4:hover {
+  background-color: RGBa(225, 225, 225, 0.15);
+}
+
+.ong4:hover .sec {
+  background-color: RGBa(225, 225, 225, 0.5);
+}
+
+.sec li {
+  border-bottom: 1px solid grey;
+}
+
+.sec li a {
+  padding: 15px 30px;
+  font-size: 13px;
+  color: #222538;
+  width: 150px;
+}
