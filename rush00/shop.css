@@ -1,0 +1,27 @@
+.boxshop
+{
+	/*text-align: center;*/
+	position: relative;
+	top: 300px;
+	height: auto;
+	/*text-align: center;*/
+	width: 80%;
+	margin: 10%;
+	border: 10px solid white;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.boxshop p
+{
+	/*text-align: left;*/
+	font-size: 24px;
+	border-bottom: 1px solid grey;
+	font-family: monospace;
+	color: grey;
+}
+
+.decal {
+	width: auto;
+	text-align: right;
+}

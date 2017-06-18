@@ -1,0 +1,296 @@
+body
+{
+	min-height: 3000px;
+	height: auto;	
+	background-image: -webkit-linear-gradient(top, #000000, #FFFFFF);
+	background-image: -moz-linear-gradient(top, #000000, #FFFFFF);
+	background-image: linear-gradient(to bottom, #000000, #FFFFFF);
+}
+
+.t-frame
+{
+	position: fixed;
+	background-color: black;
+	height: 15vh;
+	width: 100vw;
+	top: 0px;
+	left: 0px;
+}
+
+.logo
+{
+	position: fixed;
+	height: 15vh;
+	width: 9vw;
+	z-index: 1;
+}
+
+.title
+{
+	position: fixed;
+	font-size: 5vw;
+	top: -90px;
+	left: 7vw;
+	z-index: 2;
+	font-family: monospace;
+}
+
+.log-form
+{
+	position: fixed;
+	top: 3vh;
+	left: 80vw;
+	padding-left: 40px;
+	padding-right: 40px;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+}
+
+.logged
+{
+	position: fixed;
+	top: 2vh;
+	left: 80vw;
+}
+
+.gest
+{
+	position: fixed;
+	top: 8vh;
+	left: 80vw;
+}
+
+.deco
+{
+	position: fixed;
+	top: 10vh;
+	left: 80vw;
+}
+
+.register
+{
+	position: absolute;
+	top: 250px;
+	left: 50vw;
+}
+
+.forb
+{
+	text-align: center;
+	margin-top: 500px;
+}
+
+.new-a
+{
+	position: fixed;
+	width: 20vw;
+	background-color: white;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	top: 300px;
+	left: 26%;
+}
+
+.modif-a
+{
+	position: fixed;
+	width: 20vw;
+	background-color: white;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	top: 300px;
+	left: 52%;
+}
+
+.delete-a
+{
+	position: fixed;
+	width: 20vw;
+	background-color: white;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	top: 400px;
+	left: 39%;
+}
+
+.accueil
+{
+	position: fixed;
+	width: 20vw;
+	background-color: white;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	top: 1000px;
+	left: 39%;
+}
+
+.admin
+{
+	position: fixed;
+	background-color: grey;
+	border-radius: 15px;
+	text-align: center;
+	padding: 20px;
+	top: 80px;
+	left: 92%;
+}
+
+.new-a:hover
+{
+	background-color: #DCDCDC;
+}
+
+.modif-a:hover
+{
+	background-color: #DCDCDC;
+}
+
+.delete-a:hover
+{
+	background-color: #DCDCDC;
+}
+
+.accueil:hover
+{
+	background-color: #DCDCDC;
+}
+
+.admin:hover
+{
+	background-color: #DCDCDC;
+}
+
+.vente
+{
+	position: fixed;
+	top: 220px;
+	left: 48.2%;
+}
+
+.add-t
+{
+	position: fixed;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+	width: 20vw;
+	padding: 20px;
+	top: 350px;
+	left: 10%;
+}
+
+.del-t
+{
+	position: fixed;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+	width: 20vw;
+	padding: 20px;
+	top: 350px;
+	left: 70%;
+}
+
+.modif-t
+{
+	position: fixed;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+	width: 20vw;
+	padding: 20px;
+	top: 350px;
+	left: 39%;
+}
+
+.add-c
+{
+	position: fixed;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+	width: 20vw;
+	padding: 20px;
+	top: 500px;
+	left: 20%;
+}
+
+.del-c
+{
+	position: fixed;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+	width: 20vw;
+	padding: 20px;
+	top: 500px;
+	left: 58%;
+}
+
+.utilisateurs
+{
+	position: fixed;
+	top: 600px;
+	left: 47%;
+}
+
+.del-o-a
+{
+	position: fixed;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+	width: 20vw;
+	padding: 20px;
+	top: 750px;
+	left: 20%;
+}
+
+.add-o-p
+{
+	position: fixed;
+	background-color: whitesmoke;
+	border-radius: 15px;
+	text-align: center;
+	width: 20vw;
+	padding: 20px;
+	top: 750px;
+	left: 58%;
+}
+
+.hr-top
+{
+	position: fixed;
+	top: 600px;
+	left: 10%;
+	width: 82%;
+}
+
+.hr-bottom
+{
+	position: fixed;
+	top: 900px;
+	left: 22%;
+	width: 58%;
+}
+
+.shop
+{
+	position: fixed;
+	border-radius: 30px;
+	width: 7.5vw;
+	height: 98px;
+	top: 189px;
+	left: 91%;
+	z-index: 7;
+}
+
+.shop:hover
+{
+  background-color: grey;
+  opacity: 0.5;
+}
