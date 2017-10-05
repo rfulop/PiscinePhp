@@ -37,4 +37,5 @@ foreach ($res as $elem)
 	if (!ctype_alpha($elem) && !is_numeric($elem))
 		echo $elem."\n";
 }
+
 ?>

@@ -10,9 +10,9 @@ function  ft_is_sort($tab)
   while ($a < $size)
   {
     if ($tmp[$a] != $tab[$a])
-      return 0;
+      return false;
     ++$a;
   }
-  return 1;
+  return true;
 }
 ?>
