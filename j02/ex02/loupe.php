@@ -1,4 +1,4 @@
-!#/usr/bin/php
+#!/usr/bin/php
 <?php
 
 function  ft_change_title($tab)
