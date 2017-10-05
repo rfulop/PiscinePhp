@@ -2,20 +2,13 @@ body {
   background-image: url("http://wallpapercave.com/wp/KH1gMmv.jpg");
 }
 
-caption {
-  font-size: 1vw;
-  color: white;
-}
-
 table {
   width: 100%;
-  height: 100%;
 }
 
 td, tr {
   border: 1px solid black;
   width: 4%;
-  height: auto;
   text-align: center;
   empty-cells: hide;
 }
