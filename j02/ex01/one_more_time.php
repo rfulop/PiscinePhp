@@ -50,7 +50,7 @@ function  ft_get_month($str)
 if ($argc == 2)
 {
   		date_default_timezone_set("Europe/Paris");
-  $patern = '#(^[lL]undi|^[mM]ardi|^[mM]ercredi|^[jJ]eudi|^[vV]endredi|^[sS]amedi|^[dD]imanche) (\d{1,2}) ([jJ]anvier|[fF]évrier|[mM]ars|[Aa]vril|[mM]ai|[jJ]uin|[jJ]uillet|[aA]oût|[sS]eptembre|[oO]ctobre|[nN]ovembre|[dD]écembre) (\d{4}) (\d{1,2}):(\d{1,2}):(\d{1,2})#';
+  $patern = '#(^[lL]undi|^[mM]ardi|^[mM]ercredi|^[jJ]eudi|^[vV]endredi|^[sS]amedi|^[dD]imanche) (\d{1,2}) ([jJ]anvier|[fF]évrier|[mM]ars|[Aa]vril|[mM]ai|[jJ]uin|[jJ]uillet|[aA]oût|[sS]eptembre|[oO]ctobre|[nN]ovembre|[dD]écembre) (\d{4}) (\d{2}):(\d{2}):(\d{2})#';
   $ret = preg_match($patern, $argv[1]);
   if (!$ret)
     echo "Wrong Format\n";
