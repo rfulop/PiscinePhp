@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Calc</title>
+
+</head>
+  <body>
+    <form>
+    <label for="nb1" name="nb1">Number 1</label>
+    <input type="text" name="nb1"/>
+    <select id="list" name="op">
+       <option value="+">+</option>
+       <option value="-">-</option>
+       <option value="*">*</option>
+       <option value="/">/</option>
+       <option value="%">%</option>
+    </select>
+    <label for="nb2" name="nb1">Number 2</label>
+    <input type="text" name="nb2"/>
+    <input type="submit" value="Try me !" onclick="calc();"/>
+
+    <script>
+      function calc()
+      {
+        var op = document.getElementById('list');
+
+        alert(op.selectedIndex);
+      }
+
+    </script>
+  </body>
+</html>
