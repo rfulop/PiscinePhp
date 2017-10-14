@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To do list</title>
+    <meta charset="utf-8">
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous">
+    </script>
+
+    <style>
+
+    body
+    {
+      background-color: white;
+    }
+    #ft_list
+    {
+      margin-top: 5%;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding: 1%;
+      border: 3px solid grey;
+    }
+    #ft_list > div
+    {
+      border: 1px solid black;
+      font-style: oblique;
+      margin: 1%;
+      padding: 2%;
+      border: 3%;
+      font-size: 18px;
+      color: black;
+      background-color: rgb(240, 231, 231);
+    }
+    #addNew
+    {
+      margin-top: 3%;
+      margin-left: 15%;
+    }
+    h1
+    {
+      font-style: italic;
+      font-size: 52px;
+      font-weight: bold;
+      text-align: center;
+      color: rgb(108, 108, 108);
+    }
+
+    </style>
+    <script src="todo.js"></script>
+  </head>
+
+  <body>
+    <h1>Let's do this : </h1>
+    <div id="ft_list">
+    </div>
+    <input id="addNew" type="submit" value="New">
+  </body>
+</html>
