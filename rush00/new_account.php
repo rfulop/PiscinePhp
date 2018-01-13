@@ -1,9 +1,0 @@
-<?php
-    require_once("inc/header2.inc.html");
-    require_once("inc/title.inc.html");
-?>
-    </div>
-<?php
-    require_once("create.html");
-    require_once("inc/footer.inc.html");
-?>
