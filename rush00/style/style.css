@@ -1,0 +1,178 @@
+body
+{
+	background-color: rgb(218,219,216);
+	height: auto;
+	width: auto;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 64px;
+	font-family: Capture;
+}
+
+#navTop
+{
+	margin: 3%;
+	background-color: rgb(035, 035, 035);
+}
+
+#navTop li
+{
+font-family: StenciliaA;
+color: white;
+display: inline-block;
+text-decoration: none;
+padding: 20px 30px;
+border-right: 1px solid white;
+}
+
+#imgHome
+{
+	border: solid white 6px;
+	width: 55%;
+	height: 30%;
+}
+
+.centerHome
+{
+	text-align: center;
+}
+
+#navSide
+{
+	width: 20%;
+	background-color: white;
+	margin: 2%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#navSide li
+{
+	list-style-type: none;
+	font-family: StenciliaB;
+	margin: 10%;
+
+}
+
+#navSide h2
+{
+	font-family: Capture;
+	padding: 2%;
+	text-align: center;
+	border-bottom: solid black 1px;
+	font-size: 28px;
+}
+
+#navSide li a
+{
+	text-decoration: none;
+	color: black;
+	padding: 2%;
+	font-size: 22px;
+}
+
+.alignR
+{
+	float: right;
+}
+
+.centerItems
+{
+	display: inline-block;
+	width: 50%;
+	margin-top: 2%;
+
+}
+
+.elem
+{
+	width: 23%;
+	display: inline-block;
+	margin: 2%;
+	border: solid black 3px;
+}
+
+.centerItems p
+{
+	font-family: StenciliaB;
+	padding: 3%;
+	margin: 2%;
+	border: solid black 1px;
+}
+
+.imgD
+{
+		height: 25%;
+		width: 100%;
+}
+
+.centerP
+{
+	font-family: StenciliaB;
+	font-size: 36px;
+	display: inline-block;
+	flex-flow: row wrap;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+.centerh
+{
+	font-family: StenciliaB;
+	font-size: 36px;
+	text-align: center;
+	color: black;
+	padding: 1%;
+
+}
+
+.centerCon
+{
+	font-size: 36px;
+	border: 2%;
+	border: solid grey 5px;
+	text-decoration: none;
+}
+
+.orders
+{
+	padding-left: 3%;
+}
+
+.ordersN
+{
+	font-family: Capture;
+	font-size: 32px;
+
+}
+
+.liN
+{
+	font-family: StenciliaA;
+	font-size: 14px;
+	margin: 1%;
+}
+
+.ord
+{
+	border: 2px solid black;
+}
+
+@font-face {
+		font-family: "Capture";
+		src: url('./fonts/Capture_it.ttf');
+}
+
+@font-face {
+	font-family: "StenciliaA";
+	src: url('./fonts/StenciliaA.ttf');
+}
+
+@font-face {
+	font-family: "StenciliaB";
+	src: url('./fonts/StenciliaB.ttf');
+}
